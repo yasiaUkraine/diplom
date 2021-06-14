@@ -1,0 +1,161 @@
+body {
+    background-image: url('../logic//photo.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.profile-nav, .profile-info{
+    margin-top:30px;   
+}
+
+.profile-nav .user-heading {
+    background: #fbc02d;
+    color: #fff;
+    border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    padding: 30px;
+    text-align: center;
+}
+
+.profile-nav .user-heading.round a  {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 10px solid rgba(255,255,255,0.3);
+    display: inline-block;
+}
+
+.profile-nav .user-heading a img {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.profile-nav .user-heading h1 {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.profile-nav .user-heading p {
+    font-size: 12px;
+}
+
+.bio-graph-heading {
+    background: #fbc02d;
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    padding: 40px 110px;
+    border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.bio-graph-info,
+.pro-graph-info,
+.project-graph-info {
+    color: #89817e;
+    border-top: 2px solid;
+}
+
+.pro-graph-info {
+    border-color: #e26b7f;
+}
+
+.bio-graph-info {
+    border-color: #97be4b;
+}
+
+.project-graph-info {
+    border-color: #4CC5CD;
+}
+
+.bio-graph-info h1,
+.pro-graph-info h1,
+.project-graph-info h1 {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0 0 20px;
+    color: #97be4b;
+}
+
+.pro-graph-info h1 {
+    color:  #e26b7f;
+}
+
+.project-graph-info h1 {
+    color:  #4CC5CD;
+}
+
+.bio-row, 
+.pro-row,
+.project-row {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+    padding:0 15px;
+}
+
+.bio-row::before {
+    color: #97be4b;
+}
+
+.pro-row::before {
+    color: #e26b7f;
+}
+
+.project-row::before {
+    color: #4CC5CD;
+}
+
+.bio-row p span,
+.pro-row p span {
+    width: 100px;
+    display: inline-block;
+}
+
+ul { 
+    list-style: none
+}
+
+.rowUl li::before { 
+    content: "•";
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    float: inherit;
+}
+
+/* .container {
+    width: 100% !important;
+} */
+
+.test {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.test  p {
+    padding: 10px;
+}
+
+.test  p span {
+    margin-right: 20px;
+}
+
+.tab-content {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+a {
+    color: white !important;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #fbc02d !important;
+}

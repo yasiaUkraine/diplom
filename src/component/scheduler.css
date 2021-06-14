@@ -1,0 +1,11 @@
+.e-schedule .e-vertical-view .e-day-wrapper .e-appointment {
+    background: #6e48aa;
+} 
+
+.schedulerContainer {
+    justify-content: center;
+}
+
+.height {
+    padding: 50px;
+}

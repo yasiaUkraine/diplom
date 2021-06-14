@@ -1,0 +1,43 @@
+#main {
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul>li:hover {
+    background-color: #F5F5F5;
+  }
+  
+  .form-inline .form-control {
+    width: 50%;
+    margin-left: 80px;
+  }
+  
+  .done {
+    color: #e26b7f;
+    text-decoration: line-through;
+  }
+  
+  .undone {
+    color: #97be4b;
+  }
+  
+  .icon {
+    margin: 6px 10px 6px 0;
+  }
+  
+  .btn-default {
+    background: #6e48aa;
+    color: #fbc02d;
+  }
+
+  .titleTodo {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0 0 20px;
+    color: #6e48aa;
+  }
